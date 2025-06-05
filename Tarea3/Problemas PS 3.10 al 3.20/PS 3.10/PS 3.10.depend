@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1749076827 source:c:\kevin\programacion\git espace\tarea3\ps 3.10\main.c
+	<stdio.h>
+	<stdlib.h>
+
