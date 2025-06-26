@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1750904007 source:c:\kevin\programacion\git espace\tarea6\capitulo 7\pr7.8\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
