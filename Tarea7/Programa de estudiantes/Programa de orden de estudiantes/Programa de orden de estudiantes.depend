@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1751513451 source:c:\kevin\programacion\git espace\tarea7\programa de estudiantes\programa de orden de estudiantes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
