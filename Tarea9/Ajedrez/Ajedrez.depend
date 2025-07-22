@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1753225190 source:c:\kevin\programacion\git espace\tarea9\ajedrez\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

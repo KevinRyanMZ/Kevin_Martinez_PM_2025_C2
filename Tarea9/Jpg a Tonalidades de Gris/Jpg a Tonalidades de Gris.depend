@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1753200220 source:c:\kevin\programacion\git espace\tarea9\jpg a tonalidades de gris\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stb_image.h"
+	"stb_image_write.h"
+
+1753199840 c:\kevin\programacion\git espace\tarea9\jpg a tonalidades de gris\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1753199835 c:\kevin\programacion\git espace\tarea9\jpg a tonalidades de gris\stb_image_write.h
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
