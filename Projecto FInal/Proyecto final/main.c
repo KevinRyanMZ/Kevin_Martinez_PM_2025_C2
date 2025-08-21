@@ -22,13 +22,14 @@ typedef struct
     int vidaUtil;
     float kmAnualPromedio;
     float depreciacion;
+
 } Vehiculo;
 
 // Variables
 Vehiculo vehiculos[MAX];
 int cantidadVehiculos = 0;
-float costoGasolina = 0.0;
-float costoGasoil = 0.0;
+float costoGasolina = 100.0;
+float costoGasoil = 60.0;
 
 //funciones
 void guardarVehiculos();
@@ -68,6 +69,7 @@ void cargarVehiculos()
     FILE *f = fopen(ARCHIVO_VEHICULOS, "rb");
     if (f == NULL)
     {
+        printf("no hay vehiculos\n");
         return;
     }
     fread(&cantidadVehiculos, sizeof(int), 1, f);
@@ -119,6 +121,8 @@ void menu()
             scanf("%f", &costoGasoil);
             break;
         case 5:
+            printf("\nColoque la placa del vehiculo a utilizar: ");
+            scanf(" %[^\n]", placa);
             calcularCostoViaje(placa);
             break;
         case 6:
@@ -310,8 +314,6 @@ void calcularCostoViaje(char placa[])
     int encontrado = 0;
 
 
-    printf("\nColoque la placa del vehiculo a utilizar: ");
-    scanf(" %[^\n]", placa);
 
 
     for (int i = 0; i < cantidadVehiculos; i++)
